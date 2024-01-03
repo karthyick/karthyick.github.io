@@ -57717,7 +57717,7 @@ const config = {
   },
   hero: {
     name: "Karthick",
-    p: ["full stack developer, cloud computing"]
+    p: ["Full Stack Developer & Cloud Computing"]
   },
   contact: {
     p: "Get in touch",
@@ -57976,7 +57976,7 @@ const experiences = [
     iconBg: "#383E56",
     points: [
       "Developing web applications using ASP.NET API, React JS, SyncFusion, Azure and other related technologies.",
-      "Contribute to address real-time problems for business units, ease to confuse on their core business"
+      "Contribute to address real-time problems for business units, ease to focus on their core business"
     ]
   }
 ];

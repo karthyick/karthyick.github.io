@@ -6,18 +6,14 @@ import type {
 } from "../types";
 
 import {
-  backend,
-  creator,
-  web,vs,cloud,
+  vs,
+  cloud,
   az,
-   aws,
-    ops,
-     jen,
-      py,
+  aws,
+  py,
   c,
   typescript,
   reactjs,
-  Angular,
   sql,
   git,
   docker,
@@ -27,12 +23,24 @@ import {
   dev,
   wells,
   threejs,
+  // AI/ML icons
+  pytorch,
+  langchain,
+  openai,
+  huggingface,
+  neuralnet,
+  brain,
+  appian,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "work",
+    title: "Journey",
   },
   {
     id: "contact",
@@ -42,42 +50,42 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Full Stack Developer",
+    title: "AI/ML Engineer",
+    icon: brain,
+  },
+  {
+    title: "Agentic AI Systems",
+    icon: openai,
+  },
+  {
+    title: "RAG & LLM Solutions",
+    icon: neuralnet,
+  },
+  {
+    title: "Full Stack Development",
     icon: vs,
-  },
-  {
-    title: "Cloud Computing",
-    icon: cloud,
-  },
-  {
-    title: "Angular Developer",
-    icon: backend,
-  },
-  {
-    title: "React Developer",
-    icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "C#",
-    icon: c,
+    name: "Python",
+    icon: py,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "PyTorch",
+    icon: pytorch,
   },
   {
-    name: "Angular",
-    icon: Angular,
+    name: "LangChain",
+    icon: langchain,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Transformers",
+    icon: huggingface,
   },
   {
-    name: "Azure",
+    name: "Azure AI",
     icon: az,
   },
   {
@@ -85,84 +93,63 @@ const technologies: TTechnology[] = [
     icon: aws,
   },
   {
-    name: "OpenShift",
-    icon: ops,
+    name: "React JS",
+    icon: reactjs,
   },
   {
-    name: "Jenkins",
-    icon: jen,
-  },
-  {
-    name: "Python",
-    icon: py,
-  },
-  {
-    name: "SqlDB",
-    icon: sql,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "C#",
+    icon: c,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "Junior .NET Developer",
-    icon: dev,
-    iconBg: "#383E56",
+    title: "Lead Software Engineer - AI",
+    icon: appian,
+    iconBg: "#0073CF",
     points: [
-      "Developing and maintaining web applications using .NET Framework technologies.",
-      "Collaborating with cross-functional team members and support product for Small scale businesses"
+      "Multi-agent systems with multi model for intelligence.",
     ],
   },
   {
-    title: "Software Engineer",
-    icon: slk,
+    title: "AI/ML Research & Development",
+    icon: brain,
+    iconBg: "#1a1a2e",
+    points: [
+      "Training custom LLMs from scratch—achieved 34.4M parameter model with excellent perplexity scores.",
+      "Research on vocabulary optimization: discovered 10K tokens outperform 32K for grammar quality.",
+      "Building multi-agent architectures for complex code generation workflows.",
+      "Running dual high-end GPU workstations (RTX 5090 + RTX 4070 SUPER) for model training.",
+    ],
+  },
+  {
+    title: "PG Program in AI/ML",
+    icon: neuralnet,
     iconBg: "#E6DEDD",
     points: [
-      "Developing and maintaining web applications using .NET MVC Framework, Mainframe and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive and secure design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
-    title: "Senior Software Engineer",
-    icon: Suth,
-    iconBg: "#E6DEDD",
-    points: [
-      "Developing web applications using .NET MVC Framework, RPA, WPF, Twilio and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product owners, and other developers to create high-quality products.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Technology Specialist",
-    icon: wells,
-    iconBg: "#383E56",
-    points: [
-      "Developing web applications using Angular, ASP.NET Core, Web API, PEGA, PCF, Kendo and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Cloud Computing",
-    icon: cloud,
-    iconBg: "#E6DEDD",
-    points: [
-      "Post Graduate program in Cloud Computing with Great Lakes Institute of Management",
-      "Completed various capstone project which address real-time problem scenarios",
-      "Create and Manage a Nonrelational Database using AWS DynamoDB",
-      "Building an Automated Business Process using Managed Services on a Public Cloud",
+      "Advanced studies in Machine Learning, Deep Learning, and Neural Networks.",
+      "Specialization in Transformers, Fine-tuning (LoRA), and Agentic AI systems.",
+      "Practical projects in RAG systems and custom LLM development.",
     ],
   },
   {
@@ -170,20 +157,61 @@ const experiences: TExperience[] = [
     icon: dhl,
     iconBg: "#E6DEDD",
     points: [
-      "Developing web applications using ASP.NET CORE, Three JS, Azure, SyncFusion, IAM, Identity and other related technologies.",
-      "Collaborating with cross-functional teams including product owner, and other developers to create high-quality products.",
-      "Implementing responsive design and providing constructive feedback to other developers.",
+      "Developing web applications using ASP.NET Core, Three.js, Azure, SyncFusion, IAM, and Identity.",
+      "Built interactive 3D experiences with Three.js—the same tech powering this portfolio.",
+      "AI/ML, automation and intelligent systems.",
+      "Collaborating with cross-functional teams to create high-quality products.",
     ],
   },
   {
-    title: "Product & Open-source contribution",
-    icon: web,
+    title: "Technology Specialist",
+    icon: wells,
     iconBg: "#383E56",
     points: [
-      "Developing web applications using ASP.NET API, React JS, SyncFusion, Azure and other related technologies.",
-      "Contribute to address real-time problems for business units, ease to confuse on their core business",
+      "Developing web applications using Angular, ASP.NET Core, Web API, PEGA, PCF, and Kendo.",
+      "Collaborating with cross-functional teams including designers, product managers, and developers.",
+      "Implementing responsive design and providing constructive feedback through code reviews.",
+    ],
+  },
+  {
+    title: "PG in Cloud Computing",
+    icon: cloud,
+    iconBg: "#E6DEDD",
+    points: [
+      "Post Graduate program in Cloud Computing with Great Lakes Institute of Management.",
+      "Completed capstone projects addressing real-time problem scenarios.",
+      "AWS DynamoDB, automated business processes, and managed cloud services.",
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
+    icon: Suth,
+    iconBg: "#E6DEDD",
+    points: [
+      "Developing web applications using .NET MVC Framework, RPA, WPF, and Twilio.",
+      "Collaborating with cross-functional teams to create high-quality products.",
+      "Participating in code reviews and providing constructive feedback.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    icon: slk,
+    iconBg: "#E6DEDD",
+    points: [
+      "Developing and maintaining web applications using .NET MVC Framework and Mainframe technologies.",
+      "Collaborating with cross-functional teams including designers and product managers.",
+      "Implementing responsive and secure design with cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "Junior .NET Developer",
+    icon: dev,
+    iconBg: "#383E56",
+    points: [
+      "Developing and maintaining web applications using .NET Framework technologies.",
+      "Collaborating with cross-functional team members and supporting products for small scale businesses.",
     ],
   },
 ];
 
-export { services, technologies, experiences};
+export { services, technologies, experiences };

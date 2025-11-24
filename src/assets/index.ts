@@ -27,6 +27,15 @@ import Angular from "./tech/Angular.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+// AI/ML icons
+import pytorch from "./tech/PyTorch.png";
+import langchain from "./tech/langchain-color.png";
+import openai from "./tech/openai-icon.png";
+import huggingface from "./tech/hf-logo.png";
+import neuralnet from "./tech/neural-net.png";
+import brain from "./tech/brain.png";
+import appian from "./tech/Appian_Logo.svg";
+
 import dhl from "./company/DHL.png";
 import wells from "./company/Wells.png";
 import Suth from "./company/Suth.png";
@@ -57,9 +66,24 @@ export {
   dhl,
   wells,
   Suth,
-  dev,slk,
+  dev,
+  slk,
   carrent,
   jobit,
   tripguide,
-  vs,cloud,az, aws, ops, jen, py, 
+  vs,
+  cloud,
+  az,
+  aws,
+  ops,
+  jen,
+  py,
+  // AI/ML icons
+  pytorch,
+  langchain,
+  openai,
+  huggingface,
+  neuralnet,
+  brain,
+  appian,
 };

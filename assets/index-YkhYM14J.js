@@ -57711,13 +57711,13 @@ const styles = {
 };
 const config = {
   html: {
-    title: "Karthick — Portfolio",
-    fullName: "Karthick Raja",
+    title: "Karthick | Develoeper",
+    fullName: "Karthick",
     email: ""
   },
   hero: {
     name: "Karthick",
-    p: ["Full Stack Developer & Cloud Computing"]
+    p: ["AI/ML | Agentic Systems | LLMs | Developer"]
   },
   contact: {
     p: "Get in touch",
@@ -57738,15 +57738,11 @@ const config = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled in application development 
-      with Microsoft Technologies .NET C#, Asp.NET Core, Cloud Computing, Azure, AWS, 
-      OpenShift, Angular, React, Python, Three js. Collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`
+      content: `10+ years in enterprise software, now focused on what matters: building intelligence. I architect Agentic AI systems, RAG pipelines, and fine-tune LLMs. Currently building AI Systems at Appian—transforming natural language into applications. I train custom models from scratch (34M+ parameters), research vocabulary optimization, and run serious GPU infrastructure. Certified in Azure (AZ-900, AI-900, DP-900, PL-900). PG in AI/ML. I don't just use AI—I build it.`
     },
     experience: {
       p: "What I have done so far",
-      h2: ""
+      h2: "Journey."
     },
     feedbacks: {
       p: "What others say",
@@ -57802,9 +57798,6 @@ const Hero = () => {
     ) }) }) })
   ] });
 };
-const backend = "" + new URL("backend-eJbiv30d.png", import.meta.url).href;
-const creator = "" + new URL("creator-Kxn6XPAS.png", import.meta.url).href;
-const web = "" + new URL("web-2Xs7v1YF.png", import.meta.url).href;
 const menu = "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='12'%20fill='%23FFF'%20viewBox='0%200%2020%2012'%3e%3cpath%20fill='%23FFF'%20d='M9%202L19%202C19.2652%202%2019.5196%201.89464%2019.7071%201.70711C19.8946%201.51957%2020%201.26522%2020%201C20%200.734784%2019.8946%200.480429%2019.7071%200.292892C19.5196%200.105356%2019.2652%200%2019%200L9%200C8.73478%200%208.48043%200.105356%208.29289%200.292892C8.10536%200.480429%208%200.734784%208%201C8%201.26522%208.10536%201.51957%208.29289%201.70711C8.48043%201.89464%208.73478%202%209%202ZM19%2010L1%2010C0.734784%2010%200.480429%2010.1054%200.292892%2010.2929C0.105356%2010.4804%200%2010.7348%200%2011C0%2011.2652%200.105356%2011.5196%200.292892%2011.7071C0.480429%2011.8946%200.734784%2012%201%2012L19%2012C19.2652%2012%2019.5196%2011.8946%2019.7071%2011.7071C19.8946%2011.5196%2020%2011.2652%2020%2011C20%2010.7348%2019.8946%2010.4804%2019.7071%2010.2929C19.5196%2010.1054%2019.2652%2010%2019%2010V10ZM1%207L19%207C19.2652%207%2019.5196%206.89464%2019.7071%206.70711C19.8946%206.51957%2020%206.26522%2020%206C20%205.73478%2019.8946%205.48043%2019.7071%205.29289C19.5196%205.10536%2019.2652%205%2019%205L1%205C0.734784%205%200.480429%205.10536%200.292892%205.29289C0.105356%205.48043%200%205.73478%200%206C0%206.26522%200.105356%206.51957%200.292892%206.70711C0.480429%206.89464%200.734784%207%201%207Z'/%3e%3c/svg%3e";
 const close = "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='18'%20height='18'%20fill='%23FFF'%20viewBox='0%200%2018%2018'%3e%3cpath%20fill='%23FFF'%20d='M10.4099%209L16.7099%202.71C16.8982%202.5217%2017.004%202.2663%2017.004%202C17.004%201.7337%2016.8982%201.47831%2016.7099%201.29C16.5216%201.1017%2016.2662%200.995911%2015.9999%200.995911C15.7336%200.995911%2015.4782%201.1017%2015.2899%201.29L8.99994%207.59L2.70994%201.29C2.52164%201.1017%202.26624%200.995911%201.99994%200.995911C1.73364%200.995911%201.47824%201.1017%201.28994%201.29C1.10164%201.47831%200.995847%201.7337%200.995847%202C0.995847%202.2663%201.10164%202.5217%201.28994%202.71L7.58994%209L1.28994%2015.29C1.19621%2015.383%201.12182%2015.4936%201.07105%2015.6154C1.02028%2015.7373%200.994141%2015.868%200.994141%2016C0.994141%2016.132%201.02028%2016.2627%201.07105%2016.3846C1.12182%2016.5064%201.19621%2016.617%201.28994%2016.71C1.3829%2016.8037%201.4935%2016.8781%201.61536%2016.9289C1.73722%2016.9797%201.86793%2017.0058%201.99994%2017.0058C2.13195%2017.0058%202.26266%2016.9797%202.38452%2016.9289C2.50638%2016.8781%202.61698%2016.8037%202.70994%2016.71L8.99994%2010.41L15.2899%2016.71C15.3829%2016.8037%2015.4935%2016.8781%2015.6154%2016.9289C15.7372%2016.9797%2015.8679%2017.0058%2015.9999%2017.0058C16.132%2017.0058%2016.2627%2016.9797%2016.3845%2016.9289C16.5064%2016.8781%2016.617%2016.8037%2016.7099%2016.71C16.8037%2016.617%2016.8781%2016.5064%2016.9288%2016.3846C16.9796%2016.2627%2017.0057%2016.132%2017.0057%2016C17.0057%2015.868%2016.9796%2015.7373%2016.9288%2015.6154C16.8781%2015.4936%2016.8037%2015.383%2016.7099%2015.29L10.4099%209Z'/%3e%3c/svg%3e";
 const vs = "" + new URL("vs-1rJxkIUR.png", import.meta.url).href;
@@ -57815,13 +57808,17 @@ const sql = "" + new URL("sql-aaWLAK_Q.png", import.meta.url).href;
 const c = "" + new URL("c-t1BeyGaK.png", import.meta.url).href;
 const az = "" + new URL("az-NAgCG8sx.png", import.meta.url).href;
 const aws = "" + new URL("aws-BU6aYnTJ.png", import.meta.url).href;
-const ops = "" + new URL("ops-z3W4kVKA.png", import.meta.url).href;
-const jen = "" + new URL("jen-BlzcDf7-.png", import.meta.url).href;
 const py = "" + new URL("py-ISssz7yl.png", import.meta.url).href;
 const reactjs = "data:image/png;base64,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";
-const Angular = "" + new URL("Angular-tUyu07y0.png", import.meta.url).href;
 const typescript = "data:image/png;base64,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";
 const threejs = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20fill='none'%20stroke-linecap='square'%20stroke-miterlimit='10'%20version='1.1'%20viewBox='0%200%20226.77%20226.77'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20transform='translate(8.964%204.2527)'%20fill-rule='evenodd'%20stroke='%23000'%20stroke-linecap='butt'%20stroke-linejoin='round'%20stroke-width='4'%3e%3cpath%20d='m63.02%20200.61-43.213-174.94%20173.23%2049.874z'/%3e%3cpath%20d='m106.39%2050.612%2021.591%2087.496-86.567-24.945z'/%3e%3cpath%20d='m84.91%20125.03-10.724-43.465%2043.008%2012.346z'/%3e%3cpath%20d='m63.458%2038.153%2010.724%2043.465-43.008-12.346z'/%3e%3cpath%20d='m149.47%2062.93%2010.724%2043.465-43.008-12.346z'/%3e%3cpath%20d='m84.915%20125.06%2010.724%2043.465-43.008-12.346z'/%3e%3c/g%3e%3c/svg%3e";
+const pytorch = "" + new URL("PyTorch-QyJA9F8c.png", import.meta.url).href;
+const langchain = "" + new URL("langchain-color-_YihgdGT.png", import.meta.url).href;
+const openai = "" + new URL("openai-icon-EXWG1JL7.png", import.meta.url).href;
+const huggingface = "" + new URL("hf-logo-m9ejAqso.png", import.meta.url).href;
+const neuralnet = "" + new URL("neural-net-QQOf2aBk.png", import.meta.url).href;
+const brain = "" + new URL("brain-WEr-CNY9.png", import.meta.url).href;
+const appian = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Generator:%20Adobe%20Illustrator%2025.1.0,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%206.00%20Build%200)%20--%3e%3csvg%20version='1.1'%20id='Layer_2'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20x='0px'%20y='0px'%20viewBox='0%200%20265%20105'%20style='enable-background:new%200%200%20265%20105;'%20xml:space='preserve'%3e%3cstyle%20type='text/css'%3e%20.st0{fill:%232621F6;}%20%3c/style%3e%3cg%3e%3cpath%20class='st0'%20d='M152.4,34c-1.3,1.4-2,3.2-2,5.1V79h14V21.4L152.4,34z'/%3e%3cpolygon%20class='st0'%20points='150.4,2.7%20150.4,24%20164.4,9.2%20164.4,2.7%20'/%3e%3cpath%20class='st0'%20d='M144.4,29.2L144.4,29.2c-0.3-12.1-5.3-17-17.1-17c-5.5,0-26.4,0.1-26.4,0.1v90.4h13.7v-24%20c2.2,0,8.2,0.1,12.6,0.1c11.8,0,16.7-4.9,17-17h0C144.4,61.6,144.4,29.5,144.4,29.2z%20M122.5,67.6c-5.3,0-7.8,0-7.8-4.6V28.1%20c0-4.6,2.5-4.6,7.8-4.6c5.1,0,7.8,0,7.8,4.6V63C130.4,67.6,127.6,67.5,122.5,67.6z'/%3e%3cpath%20class='st0'%20d='M95,29.2L95,29.2c-0.3-12.1-5.3-17-17.1-17c-5.5,0-26.4,0.1-26.4,0.1v90.4h13.7v-24c2.2,0,8.2,0.1,12.6,0.1%20c11.8,0,16.7-4.9,17-17h0C95,61.6,95,29.5,95,29.2z%20M73.2,67.6c-5.3,0-7.8,0-7.8-4.6V28.1c0-4.6,2.5-4.6,7.8-4.6%20c5.1,0,7.8,0,7.8,4.6V63C81,67.6,78.2,67.5,73.2,67.6z'/%3e%3cpath%20class='st0'%20d='M248.6,79V28.2c0-4.6-2.8-4.6-7.8-4.6c-5.3,0-7.8,0-7.8,4.6V79h-13.7V12.4H232c0,0,8-0.1,13.5-0.1%20c11.8,0,16.7,4.9,17,17h0c0,0.3,0,49.7,0,49.7H248.6z'/%3e%3cpath%20class='st0'%20d='M213.1,29.3c-0.3-12.1-5.3-17-17-17c-0.6,0-13.1,0-17.5,0l0,11.3c12.9,0,12.1,0,12.7,0c5.1,0,7.8,0,7.8,4.6%20v6.6c-2.4,0-8.1-0.1-12.3-0.1c-11.8,0-16.7,4.9-17,17h0c0,0.3,0,10.1,0,10.4h0c0.3,12.1,5.3,17,17,17c5.5,0,26.4-0.1,26.4-0.1%20L213.1,29.3z%20M199.4,63.1c0,4.6-2.5,4.6-7.8,4.6c-5.1,0-7.8,0-7.8-4.6V50.5c0-4.6,2.8-4.6,7.8-4.6c5.3,0,7.8,0,7.8,4.6V63.1z'/%3e%3cpath%20class='st0'%20d='M45.6,29.3c-0.3-12.1-5.3-17-17-17c-0.6,0-17.5,0-17.5,0l0,11.3c0,0,12.1,0,12.7,0c5.1,0,7.8,0,7.8,4.6v6.6%20c-2.4,0-8.1-0.1-12.3-0.1c-11.8,0-16.7,4.9-17,17h0c0,0.3,0,10.1,0,10.4h0C2.5,73.5,6.9,78.4,17.3,79l10.7-11.4%20c-1.1,0.1-2.4,0.1-4,0.1c-5.1,0-7.8,0-7.8-4.6V50.5c0-4.6,2.8-4.6,7.8-4.6c5.3,0,7.8,0,7.8,4.6v28.4c0.5,0,13.7,0,13.7,0L45.6,29.3%20z'/%3e%3c/g%3e%3c/svg%3e";
 const dhl = "" + new URL("DHL-vOlNvULz.png", import.meta.url).href;
 const wells = "" + new URL("Wells-oM3vDFQu.png", import.meta.url).href;
 const Suth = "" + new URL("Suth-pXLZcQpf.png", import.meta.url).href;
@@ -57833,47 +57830,51 @@ const navLinks = [
     title: "About"
   },
   {
+    id: "work",
+    title: "Journey"
+  },
+  {
     id: "contact",
     title: "Contact"
   }
 ];
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "AI/ML Engineer",
+    icon: brain
+  },
+  {
+    title: "Agentic AI Systems",
+    icon: openai
+  },
+  {
+    title: "RAG & LLM Solutions",
+    icon: neuralnet
+  },
+  {
+    title: "Full Stack Development",
     icon: vs
-  },
-  {
-    title: "Cloud Computing",
-    icon: cloud
-  },
-  {
-    title: "Angular Developer",
-    icon: backend
-  },
-  {
-    title: "React Developer",
-    icon: creator
   }
 ];
 const technologies = [
   {
-    name: "C#",
-    icon: c
+    name: "Python",
+    icon: py
   },
   {
-    name: "React JS",
-    icon: reactjs
+    name: "PyTorch",
+    icon: pytorch
   },
   {
-    name: "Angular",
-    icon: Angular
+    name: "LangChain",
+    icon: langchain
   },
   {
-    name: "TypeScript",
-    icon: typescript
+    name: "Transformers",
+    icon: huggingface
   },
   {
-    name: "Azure",
+    name: "Azure AI",
     icon: az
   },
   {
@@ -57881,83 +57882,62 @@ const technologies = [
     icon: aws
   },
   {
-    name: "OpenShift",
-    icon: ops
+    name: "React JS",
+    icon: reactjs
   },
   {
-    name: "Jenkins",
-    icon: jen
-  },
-  {
-    name: "Python",
-    icon: py
-  },
-  {
-    name: "SqlDB",
-    icon: sql
+    name: "TypeScript",
+    icon: typescript
   },
   {
     name: "Three JS",
     icon: threejs
   },
   {
-    name: "git",
+    name: "Docker",
+    icon: docker
+  },
+  {
+    name: "Git",
     icon: git
   },
   {
-    name: "docker",
-    icon: docker
+    name: "SQL",
+    icon: sql
+  },
+  {
+    name: "C#",
+    icon: c
   }
 ];
 const experiences = [
   {
-    title: "Junior .NET Developer",
-    icon: dev,
-    iconBg: "#383E56",
+    title: "Lead Software Engineer - AI",
+    icon: appian,
+    iconBg: "#0073CF",
     points: [
-      "Developing and maintaining web applications using .NET Framework technologies.",
-      "Collaborating with cross-functional team members and support product for Small scale businesses"
+      "Multi-agent systems with multi model for intelligence."
     ]
   },
   {
-    title: "Software Engineer",
-    icon: slk,
+    title: "AI/ML Research & Development",
+    icon: brain,
+    iconBg: "#1a1a2e",
+    points: [
+      "Training custom LLMs from scratch—achieved 34.4M parameter model with excellent perplexity scores.",
+      "Research on vocabulary optimization: discovered 10K tokens outperform 32K for grammar quality.",
+      "Building multi-agent architectures for complex code generation workflows.",
+      "Running dual high-end GPU workstations (RTX 5090 + RTX 4070 SUPER) for model training."
+    ]
+  },
+  {
+    title: "PG Program in AI/ML",
+    icon: neuralnet,
     iconBg: "#E6DEDD",
     points: [
-      "Developing and maintaining web applications using .NET MVC Framework, Mainframe and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive and secure design and ensuring cross-browser compatibility."
-    ]
-  },
-  {
-    title: "Senior Software Engineer",
-    icon: Suth,
-    iconBg: "#E6DEDD",
-    points: [
-      "Developing web applications using .NET MVC Framework, RPA, WPF, Twilio and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product owners, and other developers to create high-quality products.",
-      "Participating in code reviews and providing constructive feedback to other developers."
-    ]
-  },
-  {
-    title: "Technology Specialist",
-    icon: wells,
-    iconBg: "#383E56",
-    points: [
-      "Developing web applications using Angular, ASP.NET Core, Web API, PEGA, PCF, Kendo and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and Participating in code reviews and providing constructive feedback to other developers."
-    ]
-  },
-  {
-    title: "Cloud Computing",
-    icon: cloud,
-    iconBg: "#E6DEDD",
-    points: [
-      "Post Graduate program in Cloud Computing with Great Lakes Institute of Management",
-      "Completed various capstone project which address real-time problem scenarios",
-      "Create and Manage a Nonrelational Database using AWS DynamoDB",
-      "Building an Automated Business Process using Managed Services on a Public Cloud"
+      "Advanced studies in Machine Learning, Deep Learning, and Neural Networks.",
+      "Specialization in Transformers, Fine-tuning (LoRA), and Agentic AI systems.",
+      "Practical projects in RAG systems and custom LLM development."
     ]
   },
   {
@@ -57965,18 +57945,59 @@ const experiences = [
     icon: dhl,
     iconBg: "#E6DEDD",
     points: [
-      "Developing web applications using ASP.NET CORE, Three JS, Azure, SyncFusion, IAM, Identity and other related technologies.",
-      "Collaborating with cross-functional teams including product owner, and other developers to create high-quality products.",
-      "Implementing responsive design and providing constructive feedback to other developers."
+      "Developing web applications using ASP.NET Core, Three.js, Azure, SyncFusion, IAM, and Identity.",
+      "Built interactive 3D experiences with Three.js—the same tech powering this portfolio.",
+      "AI/ML, automation and intelligent systems.",
+      "Collaborating with cross-functional teams to create high-quality products."
     ]
   },
   {
-    title: "Product & Open-source contribution",
-    icon: web,
+    title: "Technology Specialist",
+    icon: wells,
     iconBg: "#383E56",
     points: [
-      "Developing web applications using ASP.NET API, React JS, SyncFusion, Azure and other related technologies.",
-      "Contribute to address real-time problems for business units, ease to focus on their core business"
+      "Developing web applications using Angular, ASP.NET Core, Web API, PEGA, PCF, and Kendo.",
+      "Collaborating with cross-functional teams including designers, product managers, and developers.",
+      "Implementing responsive design and providing constructive feedback through code reviews."
+    ]
+  },
+  {
+    title: "PG in Cloud Computing",
+    icon: cloud,
+    iconBg: "#E6DEDD",
+    points: [
+      "Post Graduate program in Cloud Computing with Great Lakes Institute of Management.",
+      "Completed capstone projects addressing real-time problem scenarios.",
+      "AWS DynamoDB, automated business processes, and managed cloud services."
+    ]
+  },
+  {
+    title: "Senior Software Engineer",
+    icon: Suth,
+    iconBg: "#E6DEDD",
+    points: [
+      "Developing web applications using .NET MVC Framework, RPA, WPF, and Twilio.",
+      "Collaborating with cross-functional teams to create high-quality products.",
+      "Participating in code reviews and providing constructive feedback."
+    ]
+  },
+  {
+    title: "Software Engineer",
+    icon: slk,
+    iconBg: "#E6DEDD",
+    points: [
+      "Developing and maintaining web applications using .NET MVC Framework and Mainframe technologies.",
+      "Collaborating with cross-functional teams including designers and product managers.",
+      "Implementing responsive and secure design with cross-browser compatibility."
+    ]
+  },
+  {
+    title: "Junior .NET Developer",
+    icon: dev,
+    iconBg: "#383E56",
+    points: [
+      "Developing and maintaining web applications using .NET Framework technologies.",
+      "Collaborating with cross-functional team members and supporting products for small scale businesses."
     ]
   }
 ];

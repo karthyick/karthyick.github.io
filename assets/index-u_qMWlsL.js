@@ -57741,7 +57741,7 @@ const config = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `Lead AI/ML Engineer with 10+ years building enterprise-scale intelligent systems. Currently Lead AI Engineer at Appian — designed REX, an AI-native autonomous engineering pipeline delivering ~70% productivity gain, and built vendor-agnostic LLM observability replacing Phoenix, Datadog, and LangSmith. Published research: Evaluation-First Architecture (EFA) — 96.2% All-Pass Rate on MT-Bench. Trained TinyStories-24.5M, my own LLM from scratch (perplexity 8.65, on HuggingFace); LoRA fine-tuned a 9B model to 91.7% domain accuracy. 6 PyPI packages + 8 VS Code extensions — 20,000+ downloads across the aichargeworks.com ecosystem. I don't just use AI—I build it.`
+      content: `Lead AI/ML Engineer with 10+ years building enterprise-scale intelligent systems. Currently Lead AI Engineer at Appian — designed REX, an AI-native autonomous engineering pipeline delivering ~70% productivity gain, and built vendor-agnostic LLM observability replacing Phoenix, Datadog, and LangSmith. Published research: Evaluation-First Architecture (EFA) — 96.2% All-Pass Rate on MT-Bench. Trained TinyStories-24.5M, my own LLM from scratch (perplexity 8.65, on HuggingFace); LoRA fine-tuned a 9B model to 91.7% domain accuracy. 6 PyPI packages + 8 VS Code extensions — 20,000+ downloads across the aichargeworks.com ecosystem. Quantum Computing (MIT xPRO) · Gen AI (Chennai Mathematical Institute) · Azure certified (AZ-900, AI-900, DP-900, PL-900) · PG in AI/ML (IIT Roorkee). I don't just use AI—I build it.`
     },
     experience: {
       p: "What I have done so far",
@@ -57935,6 +57935,16 @@ const experiences = [
       "LoRA fine-tuned a 9B-parameter model to 91.7% domain accuracy (bf16 LoRA, single-GPU RTX 5090).",
       "6 PyPI packages (15,400+ downloads) incl. tracemaid, rubricon, distill-json; 8 VS Code extensions (4,700+ installs); shipped multiple MCP servers.",
       "Built a production voice AI agent (Alexa → FastAPI → LLM intent routing, 20 action types) and an autonomous dev → review → QA → E2E-test multi-agent platform with multi-LLM orchestration."
+    ]
+  },
+  {
+    title: "Quantum Computing — MIT xPRO",
+    icon: neuralnet,
+    iconBg: "#750014",
+    points: [
+      "Introduction to Quantum Computing from Massachusetts Institute of Technology (MIT xPRO) — latest credential.",
+      "Qubits, superposition, entanglement, and quantum gates — hands-on circuits with Qiskit.",
+      "Built the Quantum Gates Explorer — an interactive live tool for visualizing quantum gate operations."
     ]
   },
   {

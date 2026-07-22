@@ -58056,17 +58056,14 @@ const Navbar = () => {
             children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "flex cursor-pointer text-[18px] font-bold text-white ", children: config.html.fullName })
           }
         ),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "hidden list-none flex-row gap-10 sm:flex", children: [
-          navLinks.map((nav) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "li",
-            {
-              className: `${active === nav.id ? "text-white" : "text-secondary"} cursor-pointer text-[18px] font-medium hover:text-white`,
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${nav.id}`, children: nav.title })
-            },
-            nav.id
-          )),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { className: "text-secondary cursor-pointer text-[18px] font-medium hover:text-white", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/resume.pdf", target: "_blank", rel: "noopener noreferrer", children: "Resume" }) })
-        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "hidden list-none flex-row gap-10 sm:flex", children: navLinks.map((nav) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "li",
+          {
+            className: `${active === nav.id ? "text-white" : "text-secondary"} cursor-pointer text-[18px] font-medium hover:text-white`,
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${nav.id}`, children: nav.title })
+          },
+          nav.id
+        )) }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-1 items-center justify-end sm:hidden", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "img",
@@ -58081,20 +58078,17 @@ const Navbar = () => {
             "div",
             {
               className: `${!toggle ? "hidden" : "flex"} black-gradient absolute right-0 top-20 z-10 mx-4 my-2 min-w-[140px] rounded-xl p-6`,
-              children: /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "flex flex-1 list-none flex-col items-start justify-end gap-4", children: [
-                navLinks.map((nav) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "li",
-                  {
-                    className: `font-poppins cursor-pointer text-[16px] font-medium ${active === nav.id ? "text-white" : "text-secondary"}`,
-                    onClick: () => {
-                      setToggle(!toggle);
-                    },
-                    children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${nav.id}`, children: nav.title })
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "flex flex-1 list-none flex-col items-start justify-end gap-4", children: navLinks.map((nav) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "li",
+                {
+                  className: `font-poppins cursor-pointer text-[16px] font-medium ${active === nav.id ? "text-white" : "text-secondary"}`,
+                  onClick: () => {
+                    setToggle(!toggle);
                   },
-                  nav.id
-                )),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("li", { className: "font-poppins text-secondary cursor-pointer text-[16px] font-medium", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/resume.pdf", target: "_blank", rel: "noopener noreferrer", children: "Resume" }) })
-              ] })
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${nav.id}`, children: nav.title })
+                },
+                nav.id
+              )) })
             }
           )
         ] })

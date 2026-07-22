@@ -65,7 +65,7 @@ const Navbar = () => {
           }}
         >
           <p className="flex cursor-pointer text-[18px] font-bold text-white ">
-            {config.html.title}
+            {config.html.fullName}
           </p>
         </Link>
 
@@ -80,6 +80,11 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="text-secondary cursor-pointer text-[18px] font-medium hover:text-white">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className="flex flex-1 items-center justify-end sm:hidden">
@@ -109,6 +114,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className="font-poppins text-secondary cursor-pointer text-[16px] font-medium">
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>

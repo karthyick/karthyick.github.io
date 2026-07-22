@@ -124,11 +124,14 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Lead Software Engineer - AI",
+    title: "Lead AI Engineer",
     icon: appian,
     iconBg: "#0073CF",
     points: [
-      "Multi-agent systems with multi model for intelligence.",
+      "Designed and proposed REX — an AI-native autonomous engineering pipeline; adopted and implemented, delivering a ~70% productivity gain in engineering delivery.",
+      "Built a fully custom, vendor-agnostic LLM tracing & evaluation service replacing Phoenix, Datadog, and LangSmith — enterprise multi-tenant isolation on OTel/OpenInference standards.",
+      "LLM-as-Judge evaluation pipelines with domain-specific rubrics — automated scoring improved 25/100 to 97/100 across enterprise domains.",
+      "LangGraph multi-agent orchestration for natural-language application generation on Bedrock Claude.",
     ],
   },
   {
@@ -136,10 +139,11 @@ const experiences: TExperience[] = [
     icon: brain,
     iconBg: "#1a1a2e",
     points: [
-      "Training custom LLMs from scratch—achieved 34.4M parameter model with excellent perplexity scores.",
-      "Research on vocabulary optimization: discovered 10K tokens outperform 32K for grammar quality.",
-      "Building multi-agent architectures for complex code generation workflows.",
-      "Running dual high-end GPU workstations (RTX 5090 + RTX 4070 SUPER) for model training.",
+      "Published EFA research (2026): Evaluation-First Architecture — 96.2% All-Pass Rate on MT-Bench, outperforming seven baselines incl. Self-Refine and Best-of-5.",
+      "Trained TinyStories-24.5M from scratch (Llama 2 architecture: RoPE, SwiGLU, RMSNorm, Flash Attention; perplexity 8.65) — published on HuggingFace with live inference.",
+      "LoRA fine-tuned a 9B-parameter model to 91.7% domain accuracy (bf16 LoRA, single-GPU RTX 5090).",
+      "6 PyPI packages (15,400+ downloads) incl. tracemaid, rubricon, distill-json; 8 VS Code extensions (4,700+ installs); shipped multiple MCP servers.",
+      "Built a production voice AI agent (Alexa → FastAPI → LLM intent routing, 20 action types) and an autonomous dev → review → QA → E2E-test multi-agent platform with multi-LLM orchestration.",
     ],
   },
   {
@@ -157,10 +161,10 @@ const experiences: TExperience[] = [
     icon: dhl,
     iconBg: "#E6DEDD",
     points: [
-      "Developing web applications using ASP.NET Core, Three.js, Azure, SyncFusion, IAM, and Identity.",
-      "Built interactive 3D experiences with Three.js—the same tech powering this portfolio.",
-      "AI/ML, automation and intelligent systems.",
-      "Collaborating with cross-functional teams to create high-quality products.",
+      "SOLVE — slotting product for DHL supply chain: predictive analytics generating slotting moves for SKUs across DHL warehouses.",
+      "Re-engineered the slotting improvement algorithm and 2D/3D warehouse virtualization with Three.js — the same tech powering this portfolio.",
+      "Architecture, development, cloud migration (Azure), and team coordination — converting client requirements into technical tasks.",
+      "Transport Metrics — inbound supply-chain data platform, independently designed and deployed as sole contributor (Azure Functions, Gen AI).",
     ],
   },
   {

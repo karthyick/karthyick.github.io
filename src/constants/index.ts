@@ -7,7 +7,6 @@ import type {
 
 import {
   vs,
-  cloud,
   az,
   aws,
   py,
@@ -31,6 +30,9 @@ import {
   neuralnet,
   brain,
   appian,
+  mit,
+  iitr,
+  greatlakes,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -148,8 +150,8 @@ const experiences: TExperience[] = [
   },
   {
     title: "Quantum Computing — MIT xPRO",
-    icon: neuralnet,
-    iconBg: "#750014",
+    icon: mit,
+    iconBg: "#FFFFFF",
     points: [
       "Introduction to Quantum Computing from Massachusetts Institute of Technology (MIT xPRO) — latest credential.",
       "Qubits, superposition, entanglement, and quantum gates — hands-on circuits with Qiskit.",
@@ -158,8 +160,8 @@ const experiences: TExperience[] = [
   },
   {
     title: "PG Program in AI/ML",
-    icon: neuralnet,
-    iconBg: "#E6DEDD",
+    icon: iitr,
+    iconBg: "#FFFFFF",
     points: [
       "Advanced studies in Machine Learning, Deep Learning, and Neural Networks.",
       "Specialization in Transformers, Fine-tuning (LoRA), and Agentic AI systems.",
@@ -189,8 +191,8 @@ const experiences: TExperience[] = [
   },
   {
     title: "PG in Cloud Computing",
-    icon: cloud,
-    iconBg: "#E6DEDD",
+    icon: greatlakes,
+    iconBg: "#FFFFFF",
     points: [
       "Post Graduate program in Cloud Computing with Great Lakes Institute of Management.",
       "Completed capstone projects addressing real-time problem scenarios.",

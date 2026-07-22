@@ -57711,13 +57711,16 @@ const styles = {
 };
 const config = {
   html: {
-    title: "Karthick | Develoeper",
-    fullName: "Karthick",
-    email: ""
+    title: "Karthick Raja M | Lead AI/ML Engineer",
+    fullName: "Karthick Raja M",
+    email: "karthickrajam18@gmail.com"
   },
   hero: {
     name: "Karthick",
-    p: ["AI/ML | Agentic Systems | LLMs | Developer"]
+    p: [
+      "Lead AI/ML Engineer — 10+ years",
+      "Agentic AI · Multi-Agent Systems · Custom LLMs · RAG · LLM Observability"
+    ]
   },
   contact: {
     p: "Get in touch",
@@ -57738,7 +57741,7 @@ const config = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `10+ years in enterprise software, now focused on what matters: building intelligence. I architect Agentic AI systems, RAG pipelines, and fine-tune LLMs. Currently building AI Systems at Appian—transforming natural language into applications. I train custom models from scratch (34M+ parameters), research vocabulary optimization, and run serious GPU infrastructure. Certified in Azure (AZ-900, AI-900, DP-900, PL-900). PG in AI/ML. I don't just use AI—I build it.`
+      content: `Lead AI/ML Engineer with 10+ years building enterprise-scale intelligent systems. Currently Lead AI Engineer at Appian — designed REX, an AI-native autonomous engineering pipeline delivering ~70% productivity gain, and built vendor-agnostic LLM observability replacing Phoenix, Datadog, and LangSmith. Published research: Evaluation-First Architecture (EFA) — 96.2% All-Pass Rate on MT-Bench. Trained TinyStories-24.5M, my own LLM from scratch (perplexity 8.65, on HuggingFace); LoRA fine-tuned a 9B model to 91.7% domain accuracy. 6 PyPI packages + 8 VS Code extensions — 20,000+ downloads across the aichargeworks.com ecosystem. I don't just use AI—I build it.`
     },
     experience: {
       p: "What I have done so far",
@@ -57912,11 +57915,14 @@ const technologies = [
 ];
 const experiences = [
   {
-    title: "Lead Software Engineer - AI",
+    title: "Lead AI Engineer",
     icon: appian,
     iconBg: "#0073CF",
     points: [
-      "Multi-agent systems with multi model for intelligence."
+      "Designed and proposed REX — an AI-native autonomous engineering pipeline; adopted and implemented, delivering a ~70% productivity gain in engineering delivery.",
+      "Built a fully custom, vendor-agnostic LLM tracing & evaluation service replacing Phoenix, Datadog, and LangSmith — enterprise multi-tenant isolation on OTel/OpenInference standards.",
+      "LLM-as-Judge evaluation pipelines with domain-specific rubrics — automated scoring improved 25/100 to 97/100 across enterprise domains.",
+      "LangGraph multi-agent orchestration for natural-language application generation on Bedrock Claude."
     ]
   },
   {
@@ -57924,10 +57930,11 @@ const experiences = [
     icon: brain,
     iconBg: "#1a1a2e",
     points: [
-      "Training custom LLMs from scratch—achieved 34.4M parameter model with excellent perplexity scores.",
-      "Research on vocabulary optimization: discovered 10K tokens outperform 32K for grammar quality.",
-      "Building multi-agent architectures for complex code generation workflows.",
-      "Running dual high-end GPU workstations (RTX 5090 + RTX 4070 SUPER) for model training."
+      "Published EFA research (2026): Evaluation-First Architecture — 96.2% All-Pass Rate on MT-Bench, outperforming seven baselines incl. Self-Refine and Best-of-5.",
+      "Trained TinyStories-24.5M from scratch (Llama 2 architecture: RoPE, SwiGLU, RMSNorm, Flash Attention; perplexity 8.65) — published on HuggingFace with live inference.",
+      "LoRA fine-tuned a 9B-parameter model to 91.7% domain accuracy (bf16 LoRA, single-GPU RTX 5090).",
+      "6 PyPI packages (15,400+ downloads) incl. tracemaid, rubricon, distill-json; 8 VS Code extensions (4,700+ installs); shipped multiple MCP servers.",
+      "Built a production voice AI agent (Alexa → FastAPI → LLM intent routing, 20 action types) and an autonomous dev → review → QA → E2E-test multi-agent platform with multi-LLM orchestration."
     ]
   },
   {
@@ -57945,10 +57952,10 @@ const experiences = [
     icon: dhl,
     iconBg: "#E6DEDD",
     points: [
-      "Developing web applications using ASP.NET Core, Three.js, Azure, SyncFusion, IAM, and Identity.",
-      "Built interactive 3D experiences with Three.js—the same tech powering this portfolio.",
-      "AI/ML, automation and intelligent systems.",
-      "Collaborating with cross-functional teams to create high-quality products."
+      "SOLVE — slotting product for DHL supply chain: predictive analytics generating slotting moves for SKUs across DHL warehouses.",
+      "Re-engineered the slotting improvement algorithm and 2D/3D warehouse virtualization with Three.js — the same tech powering this portfolio.",
+      "Architecture, development, cloud migration (Azure), and team coordination — converting client requirements into technical tasks.",
+      "Transport Metrics — inbound supply-chain data platform, independently designed and deployed as sole contributor (Azure Functions, Gen AI)."
     ]
   },
   {
@@ -58046,17 +58053,20 @@ const Navbar = () => {
             onClick: () => {
               window.scrollTo(0, 0);
             },
-            children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "flex cursor-pointer text-[18px] font-bold text-white ", children: config.html.title })
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "flex cursor-pointer text-[18px] font-bold text-white ", children: config.html.fullName })
           }
         ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "hidden list-none flex-row gap-10 sm:flex", children: navLinks.map((nav) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "li",
-          {
-            className: `${active === nav.id ? "text-white" : "text-secondary"} cursor-pointer text-[18px] font-medium hover:text-white`,
-            children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${nav.id}`, children: nav.title })
-          },
-          nav.id
-        )) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "hidden list-none flex-row gap-10 sm:flex", children: [
+          navLinks.map((nav) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "li",
+            {
+              className: `${active === nav.id ? "text-white" : "text-secondary"} cursor-pointer text-[18px] font-medium hover:text-white`,
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${nav.id}`, children: nav.title })
+            },
+            nav.id
+          )),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { className: "text-secondary cursor-pointer text-[18px] font-medium hover:text-white", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/resume.pdf", target: "_blank", rel: "noopener noreferrer", children: "Resume" }) })
+        ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-1 items-center justify-end sm:hidden", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "img",
@@ -58071,17 +58081,20 @@ const Navbar = () => {
             "div",
             {
               className: `${!toggle ? "hidden" : "flex"} black-gradient absolute right-0 top-20 z-10 mx-4 my-2 min-w-[140px] rounded-xl p-6`,
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "flex flex-1 list-none flex-col items-start justify-end gap-4", children: navLinks.map((nav) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "li",
-                {
-                  className: `font-poppins cursor-pointer text-[16px] font-medium ${active === nav.id ? "text-white" : "text-secondary"}`,
-                  onClick: () => {
-                    setToggle(!toggle);
+              children: /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "flex flex-1 list-none flex-col items-start justify-end gap-4", children: [
+                navLinks.map((nav) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "li",
+                  {
+                    className: `font-poppins cursor-pointer text-[16px] font-medium ${active === nav.id ? "text-white" : "text-secondary"}`,
+                    onClick: () => {
+                      setToggle(!toggle);
+                    },
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${nav.id}`, children: nav.title })
                   },
-                  children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${nav.id}`, children: nav.title })
-                },
-                nav.id
-              )) })
+                  nav.id
+                )),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("li", { className: "font-poppins text-secondary cursor-pointer text-[16px] font-medium", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/resume.pdf", target: "_blank", rel: "noopener noreferrer", children: "Resume" }) })
+              ] })
             }
           )
         ] })

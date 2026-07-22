@@ -57718,7 +57718,7 @@ const config = {
   hero: {
     name: "Karthick",
     p: [
-      "Lead AI/ML Engineer — 10+ years",
+      "Lead AI/ML Engineer",
       "Agentic AI · Multi-Agent Systems · Custom LLMs · RAG · LLM Observability"
     ]
   },

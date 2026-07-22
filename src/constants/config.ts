@@ -70,7 +70,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `Lead AI/ML Engineer with 10+ years building enterprise-scale intelligent systems. Currently Lead AI Engineer at Appian — designed REX, an AI-native autonomous engineering pipeline delivering ~70% productivity gain, and built vendor-agnostic LLM observability replacing Phoenix, Datadog, and LangSmith. Published research: Evaluation-First Architecture (EFA) — 96.2% All-Pass Rate on MT-Bench. Trained TinyStories-24.5M, my own LLM from scratch (perplexity 8.65, on HuggingFace); LoRA fine-tuned a 9B model to 91.7% domain accuracy. 6 PyPI packages + 8 VS Code extensions — 20,000+ downloads across the aichargeworks.com ecosystem. I don't just use AI—I build it.`,
+      content: `Lead AI/ML Engineer with 10+ years building enterprise-scale intelligent systems. Currently Lead AI Engineer at Appian — designed REX, an AI-native autonomous engineering pipeline delivering ~70% productivity gain, and built vendor-agnostic LLM observability replacing Phoenix, Datadog, and LangSmith. Published research: Evaluation-First Architecture (EFA) — 96.2% All-Pass Rate on MT-Bench. Trained TinyStories-24.5M, my own LLM from scratch (perplexity 8.65, on HuggingFace); LoRA fine-tuned a 9B model to 91.7% domain accuracy. 6 PyPI packages + 8 VS Code extensions — 20,000+ downloads across the aichargeworks.com ecosystem. Quantum Computing (MIT xPRO) · Gen AI (Chennai Mathematical Institute) · Azure certified (AZ-900, AI-900, DP-900, PL-900) · PG in AI/ML (IIT Roorkee). I don't just use AI—I build it.`,
     },
     experience: {
       p: "What I have done so far",

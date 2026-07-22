@@ -147,6 +147,16 @@ const experiences: TExperience[] = [
     ],
   },
   {
+    title: "Quantum Computing — MIT xPRO",
+    icon: neuralnet,
+    iconBg: "#750014",
+    points: [
+      "Introduction to Quantum Computing from Massachusetts Institute of Technology (MIT xPRO) — latest credential.",
+      "Qubits, superposition, entanglement, and quantum gates — hands-on circuits with Qiskit.",
+      "Built the Quantum Gates Explorer — an interactive live tool for visualizing quantum gate operations.",
+    ],
+  },
+  {
     title: "PG Program in AI/ML",
     icon: neuralnet,
     iconBg: "#E6DEDD",

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../../constants/styles";
 import { navLinks } from "../../constants";
-import {  menu, close } from "../../assets";
+import { menu, close, krLogo } from "../../assets";
 import { config } from "../../constants/config";
 
 const Navbar = () => {
@@ -64,6 +64,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+          <img
+            src={krLogo}
+            alt="KR logo"
+            className="h-9 w-9 rounded-full object-cover"
+          />
           <p className="flex cursor-pointer text-[18px] font-bold text-white ">
             {config.html.fullName}
           </p>

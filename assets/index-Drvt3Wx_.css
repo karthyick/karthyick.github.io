@@ -627,6 +627,10 @@ video {
   height: 1.25rem;
 }
 
+.h-9{
+  height: 2.25rem;
+}
+
 .h-\[28px\]{
   height: 28px;
 }
@@ -677,6 +681,10 @@ video {
 
 .w-5{
   width: 1.25rem;
+}
+
+.w-9{
+  width: 2.25rem;
 }
 
 .w-\[28px\]{
@@ -887,6 +895,11 @@ video {
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-2{

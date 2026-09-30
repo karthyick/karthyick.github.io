@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../../constants/styles";
 import { ComputersCanvas } from "../canvas";
 import { config } from "../../constants/config";
+import { SocialLinks } from "../atoms/SocialLinks";
 
 const Hero = () => {
   return (
@@ -23,6 +24,7 @@ const Hero = () => {
             {config.hero.p[0]} <br className="hidden sm:block" />
             {config.hero.p[1]}
           </p>
+          <SocialLinks className="mt-6" />
         </div>
       </div>
 

@@ -2,7 +2,7 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
-import { services } from "../../constants";
+import { services, stats } from "../../constants";
 import { SectionWrapper } from "../../hoc";
 import { fadeIn } from "../../utils/motion";
 import { config } from "../../constants/config";
@@ -54,6 +54,27 @@ const About = () => {
       >
         {config.sections.about.content}
       </motion.p>
+
+      <div className="mt-12 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
+        {stats.map((stat, index) => (
+          <motion.div
+            key={stat.label}
+            variants={fadeIn("up", "spring", 0.2 + index * 0.15, 0.75)}
+            className="green-pink-gradient shadow-card rounded-[20px] p-[1px]"
+          >
+            <div className="bg-tertiary flex h-full flex-col justify-center rounded-[20px] px-4 py-5 sm:px-6">
+              <p
+                className={`${stat.gradient} text-[28px] font-black leading-none sm:text-[36px]`}
+              >
+                {stat.value}
+              </p>
+              <p className="text-secondary mt-2 text-[13px] leading-[18px] sm:text-[14px]">
+                {stat.label}
+              </p>
+            </div>
+          </motion.div>
+        ))}
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
         {services.map((service, index) => (

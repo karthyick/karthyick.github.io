@@ -1,61 +1,15 @@
-import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { EarthCanvas } from "../canvas";
 import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 import { config } from "../../constants/config";
+import { socials } from "../../constants";
 import { Header } from "../atoms/Header";
-
-const INITIAL_STATE = Object.fromEntries(
-  Object.keys(config.contact.form).map((input) => [input, ""])
-);
+import { SocialIcon } from "../atoms/SocialLinks";
+import { MailIcon } from "../atoms/Icons";
 
 const Contact = () => {
-  const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
-  const [form, setForm] = useState(INITIAL_STATE);
-  const [loading] = useState(false);
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement> | undefined
-  ) => {
-    if (e === undefined) return;
-    const { name, value } = e.target;
-    setForm({ ...form, [name]: value });
-  };
-
-  // const handleSubmit = (e: React.FormEvent<HTMLFormElement> | undefined) => {
-  //   if (e === undefined) return;
-  //   e.preventDefault();
-  //   setLoading(true);
-
-  //   emailjs
-  //     .send(
-  //       emailjsConfig.serviceId,
-  //       emailjsConfig.templateId,
-  //       {
-  //         form_name: form.name,
-  //         to_name: config.html.fullName,
-  //         from_email: form.email,
-  //         to_email: config.html.email,
-  //         message: form.message,
-  //       },
-  //       emailjsConfig.accessToken
-  //     )
-  //     .then(
-  //       () => {
-  //         setLoading(false);
-  //         alert("Thank you. I will get back to you as soon as possible.");
-
-  //         setForm(INITIAL_STATE);
-  //       },
-  //       (error) => {
-  //         setLoading(false);
-
-  //         console.log(error);
-  //         alert("Something went wrong.");
-  //       }
-  //     );
-  // };
+  const mailto = `mailto:${config.html.email}`;
 
   return (
     <div
@@ -67,39 +21,43 @@ const Contact = () => {
       >
         <Header useMotion={false} {...config.contact} />
 
-        <form
-          // @ts-expect-error
-          ref={formRef}
-          // onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
-        >
-          {Object.keys(config.contact.form).map((input) => {
-            const { span, placeholder } =
-              config.contact.form[input as keyof typeof config.contact.form];
-            const Component = input === "message" ? "textarea" : "input";
+        <p className="text-secondary mt-4 text-[16px] leading-[28px]">
+          {config.contact.content}
+        </p>
 
-            return (
-              <label key={input} className="flex flex-col">
-                <span className="mb-4 font-medium text-white">{span}</span>
-                <Component
-                  type={input === "email" ? "email" : "text"}
-                  name={input}
-                  value={form[`${input}`]}
-                  onChange={handleChange}
-                  placeholder={placeholder}
-                  className="bg-tertiary placeholder:text-secondary rounded-lg border-none px-6 py-4 font-medium text-white outline-none"
-                  {...(input === "message" && { rows: 7 })}
-                />
-              </label>
-            );
-          })}
-          <button
-            type="submit"
-            className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none"
-          >
-            {loading ? "Sending..." : "WIP"}
-          </button>
-        </form>
+        <a
+          href={mailto}
+          className="bg-tertiary shadow-primary mt-8 inline-flex items-center gap-3 rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none transition-colors hover:text-[#915EFF]"
+        >
+          <MailIcon className="h-5 w-5" />
+          {config.contact.cta}
+        </a>
+        <p className="text-secondary mt-3 text-[14px]">{config.html.email}</p>
+
+        <ul className="mt-10 flex flex-col gap-3">
+          {socials.map((social) => (
+            <li key={social.id}>
+              <a
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-tertiary group flex items-center gap-4 rounded-lg px-5 py-3 transition-colors hover:bg-[#1d1836]"
+              >
+                <span className="text-secondary flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-black-100 transition-colors group-hover:text-[#915EFF]">
+                  <SocialIcon id={social.id} className="h-[18px] w-[18px]" />
+                </span>
+                <span className="flex min-w-0 flex-col">
+                  <span className="text-[15px] font-medium text-white">
+                    {social.label}
+                  </span>
+                  <span className="text-secondary truncate text-[13px]">
+                    {social.handle}
+                  </span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
       </motion.div>
 
       <motion.div

@@ -6,6 +6,8 @@ export type TCommonProps = {
 
 export type TExperience = {
   iconBg: string;
+  companyName: string;
+  date: string;
   points: string[];
 } & Required<Omit<TCommonProps, "name">>;
 
@@ -16,15 +18,37 @@ export type TTestimonial = {
   image: string;
 } & Required<Pick<TCommonProps, "name">>;
 
+export type TProjectLink = {
+  label: string;
+  url: string;
+};
+
 export type TProject = {
+  kind: string;
   description: string;
+  stat: string;
+  statLabel: string;
   tags: {
     name: string;
     color: string;
   }[];
-  image: string;
   sourceCodeLink: string;
+  links?: TProjectLink[];
+  featured?: boolean;
 } & Required<Pick<TCommonProps, "name">>;
+
+export type TSocial = {
+  id: "github" | "linkedin" | "huggingface" | "x" | "paper" | "mail" | "web";
+  label: string;
+  handle: string;
+  url: string;
+};
+
+export type TStat = {
+  value: string;
+  label: string;
+  gradient: string;
+};
 
 export type TTechnology = Required<Omit<TCommonProps, "title">>;
 

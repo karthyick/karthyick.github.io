@@ -11,6 +11,7 @@ import About from "./sections/About";
 import Tech from "./sections/Tech";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
+import Works from "./sections/Works";
 import CanvasLoader from "./layout/Loader";
 
 export {
@@ -20,6 +21,7 @@ export {
   Tech,
   Experience,
   Contact,
+  Works,
   CanvasLoader,
   EarthCanvas,
   BallCanvas,

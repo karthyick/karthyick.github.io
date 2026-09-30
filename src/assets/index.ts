@@ -46,9 +46,6 @@ import mit from "./company/MIT.png";
 import iitr from "./company/IITR.png";
 import greatlakes from "./company/GreatLakes.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -76,9 +73,6 @@ export {
   mit,
   iitr,
   greatlakes,
-  carrent,
-  jobit,
-  tripguide,
   vs,
   cloud,
   az,

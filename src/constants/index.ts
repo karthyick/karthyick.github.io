@@ -88,7 +88,7 @@ const stats: TStat[] = [
     gradient: "blue-text-gradient",
   },
   {
-    value: "25K+",
+    value: "28K+",
     label: "downloads, 8 PyPI packages + 8 VS Code extensions",
     gradient: "pink-text-gradient",
   },
@@ -217,7 +217,7 @@ const experiences: TExperience[] = [
       "Published Evaluation-First Generation (EFA, 2026): the model writes its rubric first and generates against it. 96.2% all-pass on MT-Bench vs 92.5% for the best baseline (Self-Refine), 80 prompts x 12 methods = 960 runs. rubricon on PyPI is the reference implementation.",
       "Trained TinyStories-24.5M from scratch (Llama 2 architecture: RoPE, SwiGLU, RMSNorm, Flash Attention; perplexity 8.65) — published on Hugging Face with live inference.",
       "LoRA fine-tuned a 9B-parameter model to 91.7% domain accuracy (bf16 LoRA, single-GPU RTX 5090).",
-      "8 PyPI packages (19,977 downloads) incl. tracemaid, rubricon, distill-json, semantic-llm-cache; 8 VS Code extensions (5,192 installs); shipped multiple MCP servers.",
+      "8 PyPI packages (22,951 downloads) incl. tracemaid, rubricon, distill-json, semantic-llm-cache; 8 VS Code extensions (5,518 installs); shipped multiple MCP servers.",
       "Built a production voice AI agent (Alexa → FastAPI → LLM intent routing, 20 action types) and an autonomous dev → review → QA → E2E-test multi-agent platform with multi-LLM orchestration.",
     ],
   },
@@ -373,7 +373,7 @@ const projects: TProject[] = [
     kind: "PyPI",
     description:
       "OpenTelemetry traces turned into Mermaid diagrams you can actually read.",
-    stat: "4,464",
+    stat: "4,570",
     statLabel: "downloads",
     tags: [
       { name: "opentelemetry", color: "blue-text-gradient" },
@@ -387,7 +387,7 @@ const projects: TProject[] = [
     kind: "PyPI",
     description:
       "Specification-first generation: write the rubric, then generate against it. Reference implementation of the EFA paper.",
-    stat: "4,220",
+    stat: "4,333",
     statLabel: "downloads",
     tags: [
       { name: "llm-evaluation", color: "blue-text-gradient" },
@@ -401,7 +401,7 @@ const projects: TProject[] = [
     kind: "PyPI",
     description:
       "Lossless JSON compression for LLM payloads: 60-85% token reduction, 6.6x ratio.",
-    stat: "3,031",
+    stat: "3,278",
     statLabel: "downloads",
     tags: [
       { name: "token-economics", color: "orange-text-gradient" },
@@ -415,7 +415,7 @@ const projects: TProject[] = [
     kind: "PyPI",
     description:
       "Cache by meaning, not by string. One decorator, and 20-40% of calls never leave the process.",
-    stat: "2,470",
+    stat: "2,987",
     statLabel: "downloads",
     tags: [
       { name: "caching", color: "blue-text-gradient" },
@@ -431,7 +431,7 @@ const projects: TProject[] = [
     kind: "PyPI",
     description:
       "Browser and task automation that replays: every run is a signed receipt.",
-    stat: "2,344",
+    stat: "3,728",
     statLabel: "downloads",
     tags: [
       { name: "automation", color: "green-text-gradient" },
@@ -445,7 +445,7 @@ const projects: TProject[] = [
     kind: "PyPI",
     description:
       "Git-native project memory for coding agents: decisions as Markdown, MCP-ready.",
-    stat: "1,800",
+    stat: "2,029",
     statLabel: "downloads",
     tags: [
       { name: "agent-memory", color: "pink-text-gradient" },
@@ -459,7 +459,7 @@ const projects: TProject[] = [
     kind: "PyPI",
     description:
       "Direct node-to-node communication across separate LangGraph chains.",
-    stat: "1,121",
+    stat: "1,290",
     statLabel: "downloads",
     tags: [
       { name: "langgraph", color: "green-text-gradient" },
@@ -475,7 +475,7 @@ const projects: TProject[] = [
     kind: "PyPI",
     description:
       "Color-aware context routing: progressive knowledge loading instead of bulk stuffing.",
-    stat: "527",
+    stat: "736",
     statLabel: "downloads",
     tags: [
       { name: "context-engineering", color: "blue-text-gradient" },
@@ -490,8 +490,8 @@ const projects: TProject[] = [
     name: "VS Code extensions",
     kind: "Marketplace · krextensions",
     description:
-      "8 editor tools on the VS Code Marketplace. Python Venv Activator (2,694) and Code to Flowchart (2,297) lead the set.",
-    stat: "5,192",
+      "8 editor tools on the VS Code Marketplace. Python Venv Activator (2,799) and Code to Flowchart (2,497) lead the set.",
+    stat: "5,518",
     statLabel: "installs across 8 extensions",
     tags: [
       { name: "vscode", color: "blue-text-gradient" },
